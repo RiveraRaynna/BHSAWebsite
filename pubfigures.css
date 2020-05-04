@@ -79,10 +79,12 @@ h3{
 	padding: 0 auto;
 	margin: 0 auto;
 }
-.container { margin:150px auto;}
+.container { 
+	margin: 0px auto;
+	overflow: hidden;
+}
 #mixedSlider {
   position: relative;
-	overflow: hidden;
 }
 #mixedSlider .MS-content {
   white-space: nowrap;
@@ -184,7 +186,8 @@ h3{
 @media (max-width: 767px) {
   #mixedSlider .MS-controls .MS-right {
     right: -10px;
-	}}
+  }
+}
 #section2{
 	width: 960px;
 	height: 150px;

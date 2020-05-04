@@ -64,10 +64,11 @@ float: none;
 }
 section{
 	width: 960px;
-	height: 610px;
+	height: 615px;
+	border-style:solid;
 }
 img{
-	width: 960px;
+	width: 955px;
 	height: 610px;
 }
 footer{

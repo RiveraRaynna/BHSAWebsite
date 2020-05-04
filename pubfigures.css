@@ -180,3 +180,13 @@ h3{
   #mixedSlider .MS-controls .MS-right {
     right: -10px;
 	}}
+#section2{
+	width: 960px;
+	height: 150px;
+	background-color: #E3B575;
+	border-style:solid;
+	font-family:'Montserrat', sans-serif;
+	margin: 0 auto;
+	padding: 20px, 20px;
+	text-align: center;
+}

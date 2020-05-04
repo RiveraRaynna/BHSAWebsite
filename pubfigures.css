@@ -28,6 +28,10 @@ a:link {
   text-decoration: none;
 	color: black;
 }
+a:visited {
+	text-decoration: none;
+	color: black;
+}
 .dropdown {
   float: none;
   overflow: hidden;
@@ -78,6 +82,7 @@ h3{
 .container { margin:150px auto;}
 #mixedSlider {
   position: relative;
+	overflow: hidden;
 }
 #mixedSlider .MS-content {
   white-space: nowrap;

@@ -14,13 +14,13 @@
 	<header></header>
 	<nav>
 		<div class="dropdown">
-			<button class="dropbtn"><a href="homepage.css">Home</a>
+			<button class="dropbtn"><a href="index.html">Home</a>
       	<i class="fa fa-caret-down"></i>
     	</button>
     	<div class="dropdown-content">
-      	<a href="#">Public Figures</a>
-      	<a href="#">Historical Landmarks</a>
-		<a href="#">Significant Events</a>
+      	<a href="pubfigures.html">Public Figures</a>
+      	<a href="hislandmarks.html">Historical Landmarks</a>
+		<a href="sigevents.html">Significant Events</a>
    		</div></div>
 		
 		<div class="dropdown">
@@ -28,8 +28,8 @@
       	<i class="fa fa-caret-down"></i>
     	</button>
     	<div class="dropdown-content">
-      	<a href="#">Resources</a>
-      	<a href="#">Local Organizations</a>
+      	<a href="resources.html">Resources</a>
+      	<a href="localorgs.html">Local Organizations</a>
 		</div></div>
 		
 		<div class="dropdown">
@@ -37,8 +37,8 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Get Involved</a>
-      <a href="#">Ways To Give</a>
+      <a href="getinvolved.html">Get Involved</a>
+      <a href="waystogive.html">Ways To Give</a>
 			</div></div>
 	</nav>
 	
@@ -85,8 +85,8 @@
           </div>
 			 
 	<div class="MS-controls">
-         <button class="MS-left">&lt;<i class="fa fa-angle-left" aria-hidden="true"></i></button>
-         <button class="MS-right">&gt;<i class="fa fa-angle-right" aria-hidden="true"></i></button>
+         <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+         <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
                     </div>
   </div>
 </div>
@@ -96,7 +96,9 @@
 		
 <script>
 	$('#mixedSlider').multislider({
-			interval: false,
+			interval: 2000,
+			duration: 500,
+			hoverPause:true,
 		});
 </script>
 	

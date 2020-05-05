@@ -89,3 +89,9 @@ h3{
 	padding: 20px, 20px;
 	text-align: center;
 }
+footer{
+	width: 0 auto;
+	height: 30px;
+	font-family: 'Sorts Mill Goudy', serif;
+	padding: 5px 0px;
+}

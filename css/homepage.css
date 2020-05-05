@@ -9,7 +9,7 @@
 	margin: 0 auto;
 }
 header{
-	background-image: url("Assets/bhsalogo.jpg");
+	background-image: url("../Assets/bhsalogo.jpg");
 	height: 220px;
 	background-repeat: no-repeat;
 	background-position: center;

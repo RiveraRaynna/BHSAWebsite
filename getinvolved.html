@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>BHSA</title>
-	<link href="css/homepage.css" rel="stylesheet" type="text/css">
+<title>BHSA:Contact Form</title>
+	<link href="css/getinvolved.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 </head>
 
@@ -39,11 +39,26 @@
       	<a href="waystogive.html">Ways To Give</a>
 		</div></div>
 	</nav>
-	<section>
-		<img src="Assets/haystext.png" alt="haysbridge"/>
-	</section>
-	<footer>Copyright 2020, Raynna Rivera ©
-		<div class="credits"> Photo by Siggi Ragnar</div></footer>
+		<section id="sec1"><h2>Contact Form</h2></section>
+		<div class="contact">
+  <form action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="country">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Reason for contact..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
+	</div>
 </body>
 </html>

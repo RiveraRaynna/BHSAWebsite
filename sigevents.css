@@ -66,7 +66,7 @@ float: none;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#section1{
+#sec1{
 	width: 960px;
 	height: 80px;
 	background-color: white;
@@ -79,112 +79,56 @@ h2{
 	padding: 0 auto;
 	margin: 0 auto;
 }
-#section2{
-	width: 480px;
-	height: 400px;
-	background-color:white;
-	margin: 0 auto;
-	padding: 10px, 10px;
-	float: left;
-}
-#section3{
-	width: 480px;
-	height: 400px;
-	background-color: white;
-	padding: 10px, 10px;
-	margin: 0 auto;
-	float: right;
+#sec2{
+	width: 960px;
+	height: 260px;
 }
 #image1{
 	float: left;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
 #image2{
 	float: left;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
 #image3{
 	float: left;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
-#image4{
-	float: right;
-	margin: 0 auto;
-	padding: 20px;	
-}
-#image1desc{
-	width: 240px;
-	height: 20px;
+#desc1{
+	width: 300px;
 	float: left;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0px;
-	font-family: 'Sorts Mill Goudy', serif;
-	font-size: 20px;
-}
-#image2desc{
-	width: 240px;
-	height: 20px;
-	float: right;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0 auto;
-	font-family: 'Sorts Mill Goudy', serif;
-	font-size: 20px;
-}
-#image3desc{
-	width: 240px;
-	height: 20px;
-	float: left;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0 auto;
-	font-family: 'Sorts Mill Goudy', serif;
-	font-size: 20px;
-}
-#image4desc{
-	width: 240px;
-	height: 20px;
-	float: right;
-	margin: 0 auto;
-	text-align: center;
-	padding: 0 auto;
-	font-family: 'Sorts Mill Goudy', serif;
-	font-size: 20px;
-}
-#entertainment{
-	float: left;
-	width: 460px;
-	height: 180px;
-	padding:10px;
 	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family:'Sorts Mill Goudy', serif;
+}
+#desc2{
+	width: 300px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	font-family:'Sorts Mill Goudy', serif;
+	text-align: center;
+}
+#desc3{
+	width: 300px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	font-family:'Sorts Mill Goudy', serif;
+	text-align: center;
+}
+#sec3{
+	width: 960px;
+	height: 200px;
+	margin: 0px auto;
+	padding: 10px;
+	font-family: 'Sorts Mill Goudy', serif;
 	text-align: center;
 	border-style: solid;
-	background-color:#E3B575;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;	
-}
-#establishment{
-	float: left;
-	width: 460px;
-	height: 180px;
-	padding:10px;
-	margin: 10px;
-	text-align: center;
-	border-style: solid;
-	background-color:#E3B575;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;	
-}
-footer{
-	width: 0 auto;
-	height: 30px;
-	font-family: 'Sorts Mill Goudy', serif;
-	padding: 5px 0px;
-}
-.credits{
-	float: right;
+	background-color:#E3B575
 }

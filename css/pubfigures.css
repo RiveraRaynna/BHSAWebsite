@@ -95,3 +95,7 @@ footer{
 	font-family: 'Sorts Mill Goudy', serif;
 	padding: 5px 0px;
 }
+.banner{
+	text-align: center;
+	margin: 0 auto;
+}
